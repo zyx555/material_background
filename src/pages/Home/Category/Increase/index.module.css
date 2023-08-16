@@ -1,0 +1,10 @@
+.wrapper :global .ant-space{
+    width: 333px;
+    margin-left: 167px;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper :global .ant-form{
+    width: 500px;
+    margin-top: 40px;
+}

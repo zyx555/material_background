@@ -1,0 +1,4 @@
+.wrapper :global .ant-form{
+    width: 500px;
+    margin-top: 40px;
+}

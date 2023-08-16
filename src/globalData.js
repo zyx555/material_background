@@ -1,0 +1,1 @@
+export default global.baseUrl='http://47.108.14.168:12500'

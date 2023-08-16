@@ -1,0 +1,55 @@
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  /* #components-form-demo-normal-login .login-form-button { */
+    /* width: 100%; */
+  /* } */
+  .wrapper{
+    background-image: url(../../assets/register.jpg);
+    background-repeat:no-repeat; 
+    background-size:100%;
+    height: 100vh;
+    overflow-y: hidden; 
+  }
+  .title{
+    /* position: absolute; */
+    width: 160px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1890FF;
+  }
+  .subtitle{
+     font-size: 18px;
+     width: 72px;
+     /* text-decoration: underline; */
+     margin: 0 auto;
+     border-bottom: 1px solid #1890FF;
+  }
+  .container{
+    max-width: 600px;
+    margin: 160px auto;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 9px;
+  }
+  :global(.shell .ant-form-item){
+        width: 300px;
+        margin: 35px auto;
+  }
+  .loginButton,.registerButton{
+    width: 100%;
+  }
+  :global(.footer .ant-space){
+    display: flex;
+    justify-content: space-between;
+  }
